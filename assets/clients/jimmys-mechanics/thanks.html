@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thanks — <span data-bind="settings.business_name">Business</span></title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <main class="section">
+    <div class="container">
+      <h1>Thanks — message received ✅</h1>
+      <p>We’ll get back to you as soon as possible.</p>
+
+      <p>
+        Need help now?
+        <a data-bind-attr="href=settings.phone_link" href="#">Call</a>
+        or
+        <a data-bind-attr="href=settings.whatsapp_link" href="#" target="_blank" rel="noopener">WhatsApp</a>.
+      </p>
+
+      <p><a class="button" href="./">Back to homepage</a></p>
+    </div>
+  </main>
+
+  <script src="./assets/config.js"></script>
+  <script src="./assets/bind-data.js"></script>
+</body>
+</html>
