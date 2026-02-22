@@ -7,7 +7,6 @@
 // then BASE_PATH should be ""
 
 window.SITE_CONFIG = {
-  BASE_PATH: "",
-  CONTENT_API_URL: "https://script.google.com/macros/s/AKfycbx1Nvj0FFhgFwKtAenBKRVOJQzJzlH_Og3XTpn0ZVTfbPHTaHHjeYl-ruGfBs7Phma5RQ/exec",
-  THANK_YOU_PATH: "/thanks.html"
+  BASE_PATH: "/jimmys-mechanics",
+  CONTENT_API_URL: "./data/content.json",
 };
